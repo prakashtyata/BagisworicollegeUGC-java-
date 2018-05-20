@@ -1,0 +1,23 @@
+## Bagiswori College ##
+
+1. Login Service
+	
+------------------------------------------
+
+	## Model List ##
+	 
+	 i. persisten_logins -> used for remember me service
+	 ii. app_user -> all users
+	 iii. user_profile -> user types
+	 iv. app_user_user_profile
+	 
+2. Mis data
+
+	## Model List ##
+	
+	A. For Student Service
+	
+		i. Student (firstName, middleName, lastName,)
+		
+			(Transient exception - need to fix the binding error )
+	

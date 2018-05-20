@@ -1,0 +1,16 @@
+1. for 404 http errors handeling
+
+ Add this 
+	 ----
+	 public class MyWebInitializer extends
+	AbstractAnnotationConfigDispatcherServletInitializer {
+
+	//...
+
+	@Override
+	protected Filter[] getServletFilters() {
+		return new Filter[]{new ErrorHandleFilter()};
+	}
+}
+
+2. controller as interface - need to fix the controller
